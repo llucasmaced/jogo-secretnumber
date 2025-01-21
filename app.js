@@ -1,5 +1,5 @@
 let listaDeNumerosSecretosSorteados = []; //Cria array de números sorteados
-let limiteMaximo = 4; //Para evitar redigitação foi criado essa variável para definir o limite máximo de números dos jogo
+let limiteMaximo = 100; //Para evitar redigitação foi criado essa variável para definir o limite máximo de números dos jogo
 let numeroSecreto = gerarNumeroAleatorio(); //A variavel número secreto recebe o valor gerado na função gerarNumeroAleatorio
 let tentativas = 1; //Para evitar repetição essa variavel define a quantidade de tentativas do cliente
 
